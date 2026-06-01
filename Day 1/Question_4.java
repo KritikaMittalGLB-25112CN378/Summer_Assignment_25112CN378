@@ -17,4 +17,5 @@ public class Question_4
         System.out.print("The number of digits in a number is: "+ count);
 
     }    
+
 }
