@@ -5,7 +5,7 @@ public class Question_14 {
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter the Nth terms whose value to find: ");
         int num=sc.nextInt();
-        int a=1;
+        int a=0;
         int b=1;
         int c=0;
         if(num<=0){

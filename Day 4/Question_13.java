@@ -4,7 +4,7 @@ public class Question_13{
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter the number of terms: ");
         int num=sc.nextInt();
-        int a=1;
+        int a=0;
         int b=1;
         if(num<=0){
             System.out.print("No fibonacci Series");
