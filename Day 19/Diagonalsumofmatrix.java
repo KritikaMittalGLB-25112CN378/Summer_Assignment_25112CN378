@@ -26,7 +26,7 @@ public class Diagonalsumofmatrix {
                     }
                 }
             }
-            int ans;
+            int ans=0;
             ans=sum-arr[row/2][col/2];
 
             System.out.print("The sum of the diagonal elements are "+ ans);
