@@ -48,6 +48,10 @@ public class addamatrix {
             System.out.println();
         }
 
+        else{
+            System.out.print("Sum is not possible.");
+        }
+
         sc.close();
 
 
