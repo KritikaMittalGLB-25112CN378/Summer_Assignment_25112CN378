@@ -38,15 +38,16 @@ public class addamatrix {
                     arr1[i][j]+=arr2[i][j];
                 }
             }
+            System.out.println("The sum of two matrices is: ");
+            for(int i=0;i<row1;i++){
+                for(int j=0;j<col1;j++){
+                    System.out.print(arr1[i][j]+ " ");
+                }
+            System.out.println();
+            }
         }
 
-        System.out.println("The sum of two matrices is: ");
-        for(int i=0;i<row1;i++){
-            for(int j=0;j<col1;j++){
-                System.out.print(arr1[i][j]+ " ");
-            }
-            System.out.println();
-        }
+        
 
         else{
             System.out.print("Sum is not possible.");
