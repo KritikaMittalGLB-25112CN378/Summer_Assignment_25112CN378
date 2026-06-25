@@ -11,14 +11,26 @@ public class CommonCharactersInStrings {
         System.out.print("Enter the second string: ");
         String str2=sc.nextLine();
         str2=str2.toLowerCase();
-
+        
+        System.out.print("The common character in the string is ");
         for(int i=0;i<str1.length();i++){
             char ch=str1.charAt(i);
 
-            for(int j=0;j<i;j++){
-                if(ch==str2.charAt(j)){
-                    System.out.print("The common character in the string is "+ ch +" ");
+            boolean found=false;
+            for(int k=0;k<i;k++){
+                if(str1.charAt(k)==ch){
+                    found=true;
                     break;
+                }
+            }
+
+            if(found){
+                continue;
+            }
+            
+            for(int j=0;j<str2.length();j++){
+                if(ch==str2.charAt(j)){
+                    System.out.print(ch +" ");
                 }
             }
                 
