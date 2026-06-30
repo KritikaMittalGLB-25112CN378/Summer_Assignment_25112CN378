@@ -53,7 +53,7 @@ public class SalaryManagementSystem {
                     System.out.println("Invalid Choice!");
             }
 
-        } while (choice>=1 && choice <= 6);
+        } while (choice!= 6);
 
         sc.close();
     }
