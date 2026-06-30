@@ -52,7 +52,7 @@ public class StudentRecordManagementSystem {
                     System.out.println("Invalid Choice");
             }
    
-        }while(choice<=6 && choice>=1);
+        }while(choice!=6);
     }
 }
 
