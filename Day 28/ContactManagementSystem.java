@@ -106,7 +106,7 @@ public class ContactManagementSystem {
                     System.out.println("Invalid Choice!");
             }
 
-        } while (choice>=1 && choice<= 5);
+        } while (choice!= 5);
 
         sc.close();
     }
