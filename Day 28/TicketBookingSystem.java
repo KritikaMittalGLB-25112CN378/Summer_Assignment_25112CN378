@@ -100,7 +100,7 @@ public class TicketBookingSystem {
                     System.out.println("Invalid Choice!");
             }
 
-        } while (choice != 5);
+        } while (choice!= 5);
 
         sc.close();
     }
